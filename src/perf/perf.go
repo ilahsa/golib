@@ -21,3 +21,11 @@ func Init(pprofBind []string) {
 		}()
 	}
 }
+
+/*
+使用实例
+	addr := make([]string, 0)
+	addr = append(addr, "localhost:9001")
+	perf.Init(addr)
+
+*/
